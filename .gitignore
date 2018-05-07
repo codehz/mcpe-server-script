@@ -1,3 +1,6 @@
 version
 *.tar.gz
+*.zip
+*.apk
 bin/
+data/

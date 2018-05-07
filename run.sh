@@ -1,2 +1,4 @@
 #!/bin/env bash
-LD_LIBRARY_PATH=$(pwd)/bin ./bin/server
+target=$(pwd)/bin
+cd data
+LD_LIBRARY_PATH=$target $target/server
